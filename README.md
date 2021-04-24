@@ -1,5 +1,6 @@
 # Face-and-eye-detection-using-webcam
 Using Haarcascade_classifiers
+
 import cv2
 
 cap = cv2.VideoCapture(0)
@@ -32,6 +33,6 @@ while(True):
     if k == ord('q') or k == 27:
         break
 
-# When everything done, release the capture
+# When everything done, release the capture🤞
 cap.release()
 cv2.destroyAllWindows()
